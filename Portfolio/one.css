@@ -1,0 +1,141 @@
+body{
+        margin: 0;
+        top: 0;
+        background-color: rgb(214,223,218);     
+}
+#navbar{
+        border: 2px solid black;
+        border: none;
+}
+
+.one {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+}
+#navbar .abc{
+        padding-left: 638px;
+        font-size: 28px;
+}
+#navbar .bbb{
+        font-size: 28px;
+}
+.aaa{
+        height: 100px;
+        /* margin-right: 0px; */   
+}
+.one li,a{
+        
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+}
+.one li a:hover{
+        text-decoration: underline;
+        color: rgb(232, 5, 5);
+}
+
+#container{
+        display: flex;
+
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 0px 0px 0px 65px ;
+        height: 500px;
+
+        border: none;
+}
+
+.icon{
+        margin-left: 100px;
+        font-size: 50px;
+}
+
+.icon :hover{
+        color: rgb(205, 22, 22);
+}
+
+.onee{
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-left: 0;
+        margin-right: 300px;
+        height: 350px;
+        
+        border: none;
+}
+
+.png{
+        width: 400px;
+        height: 350px;
+}
+
+#btn{
+        display: flex;
+        margin-left: 50px;
+}
+button{
+        border-radius: 30px;
+        margin: 20px;
+        padding: 10px;
+        font-size: 20px;
+        background-color: rgb(211, 193, 193);       
+}
+button a{
+        color: rgb(6, 6, 97);
+}
+button:hover{
+        background: #b8b5b5;
+        cursor: pointer;
+        text-decoration: underline;
+}
+
+.footer footer{
+        border: 2px solid black;
+        color: white;
+        background-color: black;
+        height: 25px;
+        text-align: center;
+        font-size: 20px;
+
+        border: none;
+}
+
+.netflix{
+        height: 400px;
+        width: 600px;
+}
+
+.big{
+        font-size: 85px;
+}
+
+.small{
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pro{
+        font-size: 30px;
+        color: rgb(19, 15, 145);
+}
+
+#container11{
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 0px 0px 0px 65px ;
+        height: 2900px;
+
+        border: none;
+}
+
+.AA{
+        font-size: 70px;
+        text-decoration: underline;
+}
+
+.aa{
+        font-size: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
