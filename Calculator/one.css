@@ -1,51 +1,50 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-body {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: yellowgreen;
-}
-.container {
-  position: relative;
-  max-width: 300px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
   width: 100%;
-  border-radius: 12px;
-  padding: 10px 20px 20px;
-  background: white;
-  box-shadow: 0 5px 10px rgba(1, 1, 1, 1);
+  font-family: 'Roboto', sans-serif; 
 }
-.display {
-  height: 80px;
-  width: 100%;
-  outline: none;
-  border: none;
-  text-align: right;
-  margin-bottom: 10px;
-  font-size: 25px;
-  color: black;
-}
-.buttons {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(4, 1fr);
-}
-.buttons button {
-  padding: 10px;
-  border-radius: 6px;
-  border: none;
-  font-size: 20px;
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
   cursor: pointer;
-  background-color: #eee;
 }
-.buttons button:active {
-  transform: scale(0.99);
+
+.row{
+  margin: 8px 0;
 }
-.operator {
-  color: #0b85f0;
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.text-center{
+        text-align: center;
+}
+      
+.bg-red{
+        background: red;
+}
+      
+.mx-auto{
+margin: auto;
+}
+      
+.flex{
+display:flex;
+} 
+.flex-col{
+flex-direction: column;
+}
+      
+.items-center{
+align-items: center;
 }
